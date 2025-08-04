@@ -1,0 +1,497 @@
+[2025-08-04 12:30:54,164] [35100] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {}
+[2025-08-04 12:30:54,253] [35100] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 12:58:30,571] [28328] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 12:58:30,605] [28328] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 13:04:45,997] [29148] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 13:04:46,022] [29148] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 13:07:39,883] [712] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 13:07:39,917] [712] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 13:15:42,525] [33248] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 13:15:42,559] [33248] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 13:15:42,560] [33248] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 13:15:42,560] [33248] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 13:15:42,574] [33248] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 13:15:42,576] [33248] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 13:15:42,622] [33248] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 13:15:42,622] [33248] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 13:15:42,622] [33248] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 13:15:42,622] [33248] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 13:15:42,623] [33248] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x000001B7BFC64EA0>
+[2025-08-04 13:15:42,623] [33248] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 13:24:34,799] [32888] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 13:24:34,836] [32888] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 13:24:34,836] [32888] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 13:24:34,836] [32888] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 13:24:34,847] [32888] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 13:24:34,847] [32888] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 13:24:34,884] [32888] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 13:24:34,885] [32888] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 13:24:34,885] [32888] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 13:24:34,885] [32888] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 13:24:34,886] [32888] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x0000025EB1604EA0>
+[2025-08-04 13:24:34,886] [32888] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 13:24:43,723] [32888] [MainThread] [WARNING] (lib.infers:175) - Model file not found or path is invalid: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app\models\model.pt
+[2025-08-04 13:24:44,916] [32888] [MainThread] [WARNING] (lib.infers:175) - Model file not found or path is invalid: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app\models\model.pt
+[2025-08-04 13:24:54,884] [32888] [MainThread] [WARNING] (lib.infers:175) - Model file not found or path is invalid: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app\models\model.pt
+[2025-08-04 13:28:05,813] [41644] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 13:28:05,835] [41644] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 13:28:05,835] [41644] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 13:28:05,835] [41644] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 13:28:05,847] [41644] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 13:28:05,847] [41644] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 13:28:05,885] [41644] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 13:28:05,886] [41644] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 13:28:05,886] [41644] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 13:28:05,886] [41644] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 13:28:05,887] [41644] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x000001C1FC834EA0>
+[2025-08-04 13:28:05,887] [41644] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 13:30:13,467] [41644] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 13:30:13,468] [41644] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_0019_0000; Weight: 4977594
+[2025-08-04 13:30:13,474] [41644] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_0019_0000', 'weight': 4977594, 'path': 'C:\\Segmentation\\case_0019_0000.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1749346718, 'name': 'case_0019_0000.nii.gz'}
+[2025-08-04 13:37:59,035] [17864] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 13:37:59,051] [17864] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 13:37:59,052] [17864] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 13:37:59,052] [17864] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 13:37:59,073] [17864] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 13:37:59,074] [17864] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 13:37:59,128] [17864] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 13:37:59,128] [17864] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 13:37:59,128] [17864] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 13:37:59,129] [17864] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 13:37:59,130] [17864] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x0000017163224EA0>
+[2025-08-04 13:37:59,130] [17864] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 13:38:11,643] [17864] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 13:38:11,644] [17864] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: subject002_CTA; Weight: 4978072
+[2025-08-04 13:38:11,651] [17864] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'subject002_CTA', 'weight': 4978072, 'path': 'C:\\Segmentation\\subject002_CTA.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1749340459, 'name': 'subject002_CTA.nii.gz'}
+[2025-08-04 13:38:20,496] [17864] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'aorta_segmentation', 'image': 'subject002_CTA', 'cache_transforms': True, 'cache_transforms_in_memory': True, 'device': 'cpu', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-08-04 13:38:20,497] [17864] [MainThread] [INFO] (lib.infers:151) - Starting aortic segmentation inference
+[2025-08-04 13:38:20,497] [17864] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:280) - Infer Request (final): {'cache_transforms': True, 'cache_transforms_in_memory': True, 'device': 'cpu', 'model': 'aorta_segmentation', 'image': 'C:\\Segmentation\\subject002_CTA.nii.gz', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz', 'description': 'A 3D UNet model for aortic segmentation'}
+[2025-08-04 13:43:44,067] [41756] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 13:43:44,092] [41756] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 13:43:44,092] [41756] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 13:43:44,093] [41756] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 13:43:44,111] [41756] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 13:43:44,111] [41756] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 13:43:44,152] [41756] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 13:43:44,153] [41756] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 13:43:44,153] [41756] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 13:43:44,153] [41756] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 13:43:44,154] [41756] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x000001A93D9D4F40>
+[2025-08-04 13:43:44,155] [41756] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 13:44:09,491] [41756] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 13:44:09,491] [41756] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_0003_0000; Weight: 4978430
+[2025-08-04 13:44:09,495] [41756] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_0003_0000', 'weight': 4978430, 'path': 'C:\\Segmentation\\case_0003_0000.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1753940728, 'name': 'case_0003_0000.nii.gz'}
+[2025-08-04 13:44:16,485] [41756] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'aorta_segmentation', 'image': 'case_0003_0000', 'cache_transforms': True, 'cache_transforms_in_memory': True, 'device': 'cpu', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-08-04 13:44:16,485] [41756] [MainThread] [INFO] (lib.infers:147) - Starting aortic segmentation inference
+[2025-08-04 13:44:16,486] [41756] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:280) - Infer Request (final): {'cache_transforms': True, 'cache_transforms_in_memory': True, 'device': 'cpu', 'model': 'aorta_segmentation', 'image': 'C:\\Segmentation\\case_0003_0000.nii.gz', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz', 'description': 'A 3D UNet model for aortic segmentation'}
+[2025-08-04 13:44:16,487] [41756] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - PRE - Run Transform(s)
+[2025-08-04 13:44:16,487] [41756] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - PRE - Input Keys: ['cache_transforms', 'cache_transforms_in_memory', 'device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path']
+[2025-08-04 13:44:23,338] [41756] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (LoadImaged): Time: 6.8508; image: torch.Size([512, 512, 861])(torch.float32)
+[2025-08-04 13:44:23,339] [41756] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureChannelFirstd): Time: 0.0; image: torch.Size([1, 512, 512, 861])(torch.float32)
+[2025-08-04 13:44:24,001] [41756] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (ScaleIntensityRanged): Time: 0.662; image: torch.Size([1, 512, 512, 861])(torch.float32)
+[2025-08-04 13:44:24,311] [41756] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (CropForegroundd): Time: 0.3087; image: torch.Size([1, 512, 469, 861])(torch.float32)
+[2025-08-04 13:44:24,408] [41756] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Orientationd): Time: 0.0965; image: torch.Size([1, 512, 469, 861])(torch.float32)
+[2025-08-04 13:44:25,863] [41756] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Spacingd): Time: 1.455; image: torch.Size([1, 247, 226, 431])(torch.float32)
+[2025-08-04 13:44:25,864] [41756] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureTyped): Time: 0.0; image: torch.Size([1, 247, 226, 431])(torch.float32)
+[2025-08-04 13:44:25,865] [41756] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:503) - Inferer:: cpu => SlidingWindowInferer => {'roi_size': [96, 96, 96], 'sw_batch_size': 4, 'overlap': 0.5, 'mode': constant, 'sigma_scale': 0.125, 'padding_mode': constant, 'cval': 0.0, 'sw_device': None, 'device': None, 'progress': False, 'cpu_thresh': None, 'buffer_steps': None, 'buffer_dim': -1, 'with_coord': False, 'roi_weight_map': None}
+[2025-08-04 13:44:25,865] [41756] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:432) - Infer model path: ['C:\\DevinMonai\\Aorta_Analysis\\monai_label_app\\aorta_app\\models\\model.pt']
+[2025-08-04 13:53:35,349] [32864] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 13:53:35,380] [32864] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 13:55:14,270] [33168] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 13:55:14,315] [33168] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 13:55:14,315] [33168] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 13:55:14,316] [33168] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 13:55:14,338] [33168] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 13:55:14,340] [33168] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 13:55:14,381] [33168] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 13:55:14,381] [33168] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 13:55:14,381] [33168] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 13:55:14,382] [33168] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 13:55:14,382] [33168] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x0000022370284FE0>
+[2025-08-04 13:55:14,383] [33168] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 13:55:27,320] [33168] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 13:55:27,321] [33168] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_0001_0000; Weight: 4979108
+[2025-08-04 13:55:27,327] [33168] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_0001_0000', 'weight': 4979108, 'path': 'C:\\Segmentation\\case_0001_0000.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1749302622, 'name': 'case_0001_0000.nii.gz', 'strategy': {'random': {'ts': 1754283327, 'client_id': 'user-xyz'}}}
+[2025-08-04 13:55:34,417] [33168] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'aorta_segmentation', 'image': 'case_0001_0000', 'cache_transforms': True, 'cache_transforms_in_memory': True, 'device': 'cpu', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-08-04 13:55:34,418] [33168] [MainThread] [INFO] (lib.infers:147) - Starting aortic segmentation inference
+[2025-08-04 13:55:34,418] [33168] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:280) - Infer Request (final): {'cache_transforms': True, 'cache_transforms_in_memory': True, 'device': 'cpu', 'model': 'aorta_segmentation', 'image': 'C:\\Segmentation\\case_0001_0000.nii.gz', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz', 'description': 'A 3D UNet model for aortic segmentation'}
+[2025-08-04 13:55:34,419] [33168] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - PRE - Run Transform(s)
+[2025-08-04 13:55:34,419] [33168] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - PRE - Input Keys: ['cache_transforms', 'cache_transforms_in_memory', 'device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path']
+[2025-08-04 13:55:39,922] [33168] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (LoadImaged): Time: 5.503; image: torch.Size([512, 512, 549])(torch.float32)
+[2025-08-04 13:55:39,923] [33168] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureChannelFirstd): Time: 0.0; image: torch.Size([1, 512, 512, 549])(torch.float32)
+[2025-08-04 13:55:40,120] [33168] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (ScaleIntensityRanged): Time: 0.1967; image: torch.Size([1, 512, 512, 549])(torch.float32)
+[2025-08-04 13:55:40,304] [33168] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (CropForegroundd): Time: 0.183; image: torch.Size([1, 512, 481, 549])(torch.float32)
+[2025-08-04 13:55:40,426] [33168] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Orientationd): Time: 0.1223; image: torch.Size([1, 512, 481, 549])(torch.float32)
+[2025-08-04 13:55:41,675] [33168] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Spacingd): Time: 1.2484; image: torch.Size([1, 254, 239, 344])(torch.float32)
+[2025-08-04 13:55:41,676] [33168] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureTyped): Time: 0.0; image: torch.Size([1, 254, 239, 344])(torch.float32)
+[2025-08-04 13:55:41,676] [33168] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:503) - Inferer:: cpu => SlidingWindowInferer => {'roi_size': [96, 96, 96], 'sw_batch_size': 4, 'overlap': 0.5, 'mode': constant, 'sigma_scale': 0.125, 'padding_mode': constant, 'cval': 0.0, 'sw_device': None, 'device': None, 'progress': False, 'cpu_thresh': None, 'buffer_steps': None, 'buffer_dim': -1, 'with_coord': False, 'roi_weight_map': None}
+[2025-08-04 13:55:41,676] [33168] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:432) - Infer model path: ['C:\\DevinMonai\\Aorta_Analysis\\monai_label_app\\aorta_app\\models\\model.pt']
+[2025-08-04 14:03:14,733] [20832] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 14:03:14,767] [20832] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 14:03:14,767] [20832] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 14:03:14,768] [20832] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 14:03:14,787] [20832] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 14:03:14,787] [20832] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 14:03:14,827] [20832] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 14:03:14,828] [20832] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 14:03:14,828] [20832] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 14:03:14,828] [20832] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 14:03:14,829] [20832] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x0000026540484F40>
+[2025-08-04 14:03:14,830] [20832] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 14:03:24,262] [20832] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 14:03:24,263] [20832] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_0002_0000; Weight: 477
+[2025-08-04 14:03:24,273] [20832] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_0002_0000', 'weight': 477, 'path': 'C:\\Segmentation\\case_0002_0000.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1749303426, 'name': 'case_0002_0000.nii.gz', 'strategy': {'random': {'ts': 1754283804, 'client_id': 'user-xyz'}}}
+[2025-08-04 14:03:30,829] [20832] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'aorta_segmentation', 'image': 'case_0002_0000', 'device': 'cpu', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-08-04 14:03:30,830] [20832] [MainThread] [INFO] (lib.infers:147) - Starting aortic segmentation inference
+[2025-08-04 14:03:30,830] [20832] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:280) - Infer Request (final): {'device': 'cpu', 'model': 'aorta_segmentation', 'image': 'C:\\Segmentation\\case_0002_0000.nii.gz', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz', 'description': 'A 3D UNet model for aortic segmentation'}
+[2025-08-04 14:03:30,831] [20832] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - PRE - Run Transform(s)
+[2025-08-04 14:03:30,831] [20832] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - PRE - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path']
+[2025-08-04 14:03:37,964] [20832] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (LoadImaged): Time: 7.1331; image: torch.Size([512, 512, 831])(torch.float32)
+[2025-08-04 14:03:37,965] [20832] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureChannelFirstd): Time: 0.0; image: torch.Size([1, 512, 512, 831])(torch.float32)
+[2025-08-04 14:03:38,406] [20832] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (ScaleIntensityRanged): Time: 0.4394; image: torch.Size([1, 512, 512, 831])(torch.float32)
+[2025-08-04 14:03:38,709] [20832] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (CropForegroundd): Time: 0.3018; image: torch.Size([1, 512, 477, 831])(torch.float32)
+[2025-08-04 14:03:38,786] [20832] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Orientationd): Time: 0.0775; image: torch.Size([1, 512, 477, 831])(torch.float32)
+[2025-08-04 14:03:40,240] [20832] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Spacingd): Time: 1.4535; image: torch.Size([1, 247, 230, 416])(torch.float32)
+[2025-08-04 14:03:40,240] [20832] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureTyped): Time: 0.0; image: torch.Size([1, 247, 230, 416])(torch.float32)
+[2025-08-04 14:03:40,240] [20832] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:503) - Inferer:: cpu => SlidingWindowInferer => {'roi_size': [96, 96, 96], 'sw_batch_size': 4, 'overlap': 0.5, 'mode': constant, 'sigma_scale': 0.125, 'padding_mode': constant, 'cval': 0.0, 'sw_device': None, 'device': None, 'progress': False, 'cpu_thresh': None, 'buffer_steps': None, 'buffer_dim': -1, 'with_coord': False, 'roi_weight_map': None}
+[2025-08-04 14:03:40,240] [20832] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:432) - Infer model path: ['C:\\DevinMonai\\Aorta_Analysis\\monai_label_app\\aorta_app\\models\\model.pt']
+[2025-08-04 14:10:04,859] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 14:10:04,898] [37364] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 14:10:04,899] [37364] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 14:10:04,899] [37364] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 14:10:04,920] [37364] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 14:10:04,920] [37364] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 14:10:04,970] [37364] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 14:10:04,970] [37364] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 14:10:04,970] [37364] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 14:10:04,971] [37364] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 14:10:04,972] [37364] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x0000019A97814EA0>
+[2025-08-04 14:10:04,972] [37364] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 14:10:11,767] [37364] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 14:10:11,768] [37364] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: subject003_CTA; Weight: 884
+[2025-08-04 14:10:11,773] [37364] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'subject003_CTA', 'weight': 884, 'path': 'C:\\Segmentation\\subject003_CTA.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1749341385, 'name': 'subject003_CTA.nii.gz', 'strategy': {'random': {'ts': 1754284211, 'client_id': 'user-xyz'}}}
+[2025-08-04 14:10:21,514] [37364] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'aorta_segmentation', 'image': 'subject003_CTA', 'device': 'cpu', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-08-04 14:10:21,514] [37364] [MainThread] [INFO] (lib.infers:155) - Starting aortic segmentation inference
+[2025-08-04 14:10:21,514] [37364] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:280) - Infer Request (final): {'device': 'cpu', 'model': 'aorta_segmentation', 'image': 'C:\\Segmentation\\subject003_CTA.nii.gz', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz', 'description': 'A 3D UNet model for aortic segmentation'}
+[2025-08-04 14:10:21,516] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - PRE - Run Transform(s)
+[2025-08-04 14:10:21,516] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - PRE - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path']
+[2025-08-04 14:10:24,038] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (LoadImaged): Time: 2.5221; image: torch.Size([400, 400, 801])(torch.float32)
+[2025-08-04 14:10:24,039] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureChannelFirstd): Time: 0.0007; image: torch.Size([1, 400, 400, 801])(torch.float32)
+[2025-08-04 14:10:24,214] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (ScaleIntensityRanged): Time: 0.1753; image: torch.Size([1, 400, 400, 801])(torch.float32)
+[2025-08-04 14:10:24,422] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (CropForegroundd): Time: 0.2085; image: torch.Size([1, 400, 311, 801])(torch.float32)
+[2025-08-04 14:10:24,505] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Orientationd): Time: 0.082; image: torch.Size([1, 400, 311, 801])(torch.float32)
+[2025-08-04 14:10:25,590] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Spacingd): Time: 1.0836; image: torch.Size([1, 267, 208, 401])(torch.float32)
+[2025-08-04 14:10:25,591] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureTyped): Time: 0.0; image: torch.Size([1, 267, 208, 401])(torch.float32)
+[2025-08-04 14:10:25,591] [37364] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:503) - Inferer:: cpu => SlidingWindowInferer => {'roi_size': [96, 96, 96], 'sw_batch_size': 4, 'overlap': 0.5, 'mode': constant, 'sigma_scale': 0.125, 'padding_mode': constant, 'cval': 0.0, 'sw_device': None, 'device': None, 'progress': False, 'cpu_thresh': None, 'buffer_steps': None, 'buffer_dim': -1, 'with_coord': False, 'roi_weight_map': None}
+[2025-08-04 14:10:25,591] [37364] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:432) - Infer model path: ['C:\\DevinMonai\\Aorta_Analysis\\monai_label_app\\aorta_app\\models\\model.pt']
+[2025-08-04 14:11:02,869] [37364] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'aorta_segmentation', 'image': 'subject003_CTA', 'device': 'cpu', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-08-04 14:11:02,869] [37364] [MainThread] [INFO] (lib.infers:155) - Starting aortic segmentation inference
+[2025-08-04 14:11:02,869] [37364] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:280) - Infer Request (final): {'device': 'cpu', 'model': 'aorta_segmentation', 'image': 'C:\\Segmentation\\subject003_CTA.nii.gz', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz', 'description': 'A 3D UNet model for aortic segmentation'}
+[2025-08-04 14:11:02,871] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - PRE - Run Transform(s)
+[2025-08-04 14:11:02,872] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - PRE - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path']
+[2025-08-04 14:11:05,299] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (LoadImaged): Time: 2.4267; image: torch.Size([400, 400, 801])(torch.float32)
+[2025-08-04 14:11:05,300] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureChannelFirstd): Time: 0.0; image: torch.Size([1, 400, 400, 801])(torch.float32)
+[2025-08-04 14:11:05,584] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (ScaleIntensityRanged): Time: 0.2819; image: torch.Size([1, 400, 400, 801])(torch.float32)
+[2025-08-04 14:11:05,789] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (CropForegroundd): Time: 0.2051; image: torch.Size([1, 400, 311, 801])(torch.float32)
+[2025-08-04 14:11:05,869] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Orientationd): Time: 0.0785; image: torch.Size([1, 400, 311, 801])(torch.float32)
+[2025-08-04 14:11:07,102] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Spacingd): Time: 1.2321; image: torch.Size([1, 267, 208, 401])(torch.float32)
+[2025-08-04 14:11:07,103] [37364] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureTyped): Time: 0.0; image: torch.Size([1, 267, 208, 401])(torch.float32)
+[2025-08-04 14:11:07,104] [37364] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:503) - Inferer:: cpu => SlidingWindowInferer => {'roi_size': [96, 96, 96], 'sw_batch_size': 4, 'overlap': 0.5, 'mode': constant, 'sigma_scale': 0.125, 'padding_mode': constant, 'cval': 0.0, 'sw_device': None, 'device': None, 'progress': False, 'cpu_thresh': None, 'buffer_steps': None, 'buffer_dim': -1, 'with_coord': False, 'roi_weight_map': None}
+[2025-08-04 14:11:07,105] [37364] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:432) - Infer model path: ['C:\\DevinMonai\\Aorta_Analysis\\monai_label_app\\aorta_app\\models\\model.pt']
+[2025-08-04 14:27:10,782] [41248] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 14:27:10,815] [41248] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 14:27:10,816] [41248] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 14:27:10,816] [41248] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 14:27:10,838] [41248] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 14:27:10,838] [41248] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 14:27:10,881] [41248] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 14:27:10,882] [41248] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 14:27:10,882] [41248] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 14:27:10,882] [41248] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 14:27:10,883] [41248] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x00000282221D4EA0>
+[2025-08-04 14:27:10,884] [41248] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 14:27:18,695] [41248] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 14:27:18,696] [41248] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_0020_0000; Weight: 1911
+[2025-08-04 14:27:18,700] [41248] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_0020_0000', 'weight': 1911, 'path': 'C:\\Segmentation\\case_0020_0000.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1749514299, 'name': 'case_0020_0000.nii.gz', 'strategy': {'random': {'ts': 1754285238, 'client_id': 'user-xyz'}}}
+[2025-08-04 14:27:31,704] [41248] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'aorta_segmentation', 'image': 'case_0020_0000', 'device': 'cpu', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-08-04 14:27:31,704] [41248] [MainThread] [INFO] (lib.infers:150) - Starting aortic segmentation inference
+[2025-08-04 14:27:31,705] [41248] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:280) - Infer Request (final): {'device': 'cpu', 'model': 'aorta_segmentation', 'image': 'C:\\Segmentation\\case_0020_0000.nii.gz', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz', 'description': 'A 3D UNet model for aortic segmentation'}
+[2025-08-04 14:27:31,706] [41248] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - PRE - Run Transform(s)
+[2025-08-04 14:27:31,706] [41248] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - PRE - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path']
+[2025-08-04 14:27:33,404] [41248] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (LoadImaged): Time: 1.6965; image: torch.Size([512, 512, 177])(torch.float32)
+[2025-08-04 14:27:33,405] [41248] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureChannelFirstd): Time: 0.0; image: torch.Size([1, 512, 512, 177])(torch.float32)
+[2025-08-04 14:27:33,475] [41248] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (ScaleIntensityRanged): Time: 0.0689; image: torch.Size([1, 512, 512, 177])(torch.float32)
+[2025-08-04 14:27:33,520] [41248] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (CropForegroundd): Time: 0.0455; image: torch.Size([1, 512, 379, 177])(torch.float32)
+[2025-08-04 14:27:33,530] [41248] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Orientationd): Time: 0.009; image: torch.Size([1, 512, 379, 177])(torch.float32)
+[2025-08-04 14:27:34,582] [41248] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Spacingd): Time: 1.0518; image: torch.Size([1, 247, 183, 441])(torch.float32)
+[2025-08-04 14:27:34,583] [41248] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureTyped): Time: 0.0; image: torch.Size([1, 247, 183, 441])(torch.float32)
+[2025-08-04 14:27:34,583] [41248] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:503) - Inferer:: cpu => SlidingWindowInferer => {'roi_size': [96, 96, 96], 'sw_batch_size': 4, 'overlap': 0.5, 'mode': constant, 'sigma_scale': 0.125, 'padding_mode': constant, 'cval': 0.0, 'sw_device': None, 'device': None, 'progress': False, 'cpu_thresh': None, 'buffer_steps': None, 'buffer_dim': -1, 'with_coord': False, 'roi_weight_map': None}
+[2025-08-04 14:27:34,583] [41248] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:432) - Infer model path: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app\models\model.pt
+[2025-08-04 15:36:36,375] [23000] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 15:36:36,413] [23000] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 15:36:36,414] [23000] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 15:36:36,414] [23000] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 15:36:36,431] [23000] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 15:36:36,431] [23000] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 15:36:36,494] [23000] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 15:36:36,495] [23000] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 15:36:36,495] [23000] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 15:36:36,495] [23000] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 15:36:36,496] [23000] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x0000026958314EA0>
+[2025-08-04 15:36:36,497] [23000] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 15:36:50,337] [23000] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 15:36:50,338] [23000] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: subject003_CTA; Weight: 6083
+[2025-08-04 15:36:50,348] [23000] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'subject003_CTA', 'weight': 6083, 'path': 'C:\\Segmentation\\subject003_CTA.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1749341385, 'name': 'subject003_CTA.nii.gz', 'strategy': {'random': {'ts': 1754289410, 'client_id': 'user-xyz'}}}
+[2025-08-04 15:38:01,557] [23000] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 15:38:01,558] [23000] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_0002_0000; Weight: 6154
+[2025-08-04 15:38:01,560] [23000] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_0002_0000', 'weight': 6154, 'path': 'C:\\Segmentation\\case_0002_0000.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1749303426, 'name': 'case_0002_0000.nii.gz', 'strategy': {'random': {'ts': 1754289481, 'client_id': 'user-xyz'}}}
+[2025-08-04 15:45:17,753] [2484] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 15:45:17,781] [2484] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 15:45:17,781] [2484] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 15:45:17,782] [2484] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 15:45:17,801] [2484] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 15:45:17,801] [2484] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 15:45:17,842] [2484] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 15:45:17,842] [2484] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 15:45:17,843] [2484] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 15:45:17,843] [2484] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 15:45:17,845] [2484] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x00000281217B4EA0>
+[2025-08-04 15:45:17,845] [2484] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 15:45:36,647] [2484] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 15:45:36,648] [2484] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: subject002_CTA; Weight: 6609
+[2025-08-04 15:45:36,655] [2484] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'subject002_CTA', 'weight': 6609, 'path': 'C:\\Segmentation\\subject002_CTA.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1749340459, 'name': 'subject002_CTA.nii.gz', 'strategy': {'random': {'ts': 1754289936, 'client_id': 'user-xyz'}}}
+[2025-08-04 15:46:42,283] [2484] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 15:46:42,283] [2484] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_0020_0000; Weight: 6675
+[2025-08-04 15:46:42,288] [2484] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_0020_0000', 'weight': 6675, 'path': 'C:\\Segmentation\\case_0020_0000.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1749514299, 'name': 'case_0020_0000.nii.gz', 'strategy': {'random': {'ts': 1754290002, 'client_id': 'user-xyz'}}}
+[2025-08-04 15:46:59,649] [2484] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'aorta_segmentation', 'image': 'case_0020_0000', 'device': 'cpu', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-08-04 15:46:59,649] [2484] [MainThread] [INFO] (lib.infers:149) - Starting aortic segmentation inference
+[2025-08-04 15:46:59,650] [2484] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:280) - Infer Request (final): {'device': 'cpu', 'model': 'aorta_segmentation', 'image': 'C:\\Segmentation\\case_0020_0000.nii.gz', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz', 'description': 'A 3D UNet model for aortic segmentation'}
+[2025-08-04 15:46:59,653] [2484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - PRE - Run Transform(s)
+[2025-08-04 15:46:59,653] [2484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - PRE - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path']
+[2025-08-04 15:47:01,401] [2484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (LoadImaged): Time: 1.7467; image: torch.Size([512, 512, 177])(torch.float32)
+[2025-08-04 15:47:01,401] [2484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureChannelFirstd): Time: 0.0005; image: torch.Size([1, 512, 512, 177])(torch.float32)
+[2025-08-04 15:47:01,498] [2484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (ScaleIntensityRanged): Time: 0.0964; image: torch.Size([1, 512, 512, 177])(torch.float32)
+[2025-08-04 15:47:01,543] [2484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (CropForegroundd): Time: 0.044; image: torch.Size([1, 512, 379, 177])(torch.float32)
+[2025-08-04 15:47:01,554] [2484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Orientationd): Time: 0.0105; image: torch.Size([1, 512, 379, 177])(torch.float32)
+[2025-08-04 15:47:02,597] [2484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Spacingd): Time: 1.0433; image: torch.Size([1, 247, 183, 441])(torch.float32)
+[2025-08-04 15:47:02,598] [2484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureTyped): Time: 0.0; image: torch.Size([1, 247, 183, 441])(torch.float32)
+[2025-08-04 15:47:02,598] [2484] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:503) - Inferer:: cpu => SlidingWindowInferer => {'roi_size': [96, 96, 96], 'sw_batch_size': 4, 'overlap': 0.5, 'mode': constant, 'sigma_scale': 0.125, 'padding_mode': constant, 'cval': 0.0, 'sw_device': None, 'device': None, 'progress': False, 'cpu_thresh': None, 'buffer_steps': None, 'buffer_dim': -1, 'with_coord': False, 'roi_weight_map': None}
+[2025-08-04 15:47:02,598] [2484] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:432) - Infer model path: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app\models\model.pt
+[2025-08-04 15:51:50,377] [41116] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 15:51:50,411] [41116] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 15:51:50,411] [41116] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 15:51:50,412] [41116] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 15:51:50,431] [41116] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 15:51:50,431] [41116] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 15:51:50,477] [41116] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 15:51:50,477] [41116] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 15:51:50,477] [41116] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 15:51:50,478] [41116] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 15:51:50,479] [41116] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x000001901F204EA0>
+[2025-08-04 15:51:50,479] [41116] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 15:52:12,840] [23948] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 15:52:12,864] [23948] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 15:52:12,865] [23948] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 15:52:12,865] [23948] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 15:52:12,878] [23948] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 15:52:12,878] [23948] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 15:52:12,922] [23948] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 15:52:12,923] [23948] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 15:52:12,923] [23948] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 15:52:12,923] [23948] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 15:52:12,925] [23948] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x0000019938374EA0>
+[2025-08-04 15:52:12,925] [23948] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 15:52:25,853] [23948] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 15:52:25,854] [23948] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_0003_0000; Weight: 7018
+[2025-08-04 15:52:25,858] [23948] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_0003_0000', 'weight': 7018, 'path': 'C:\\Segmentation\\case_0003_0000.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1753940728, 'name': 'case_0003_0000.nii.gz', 'strategy': {'random': {'ts': 1754290345, 'client_id': 'user-xyz'}}}
+[2025-08-04 15:52:31,182] [23948] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'aorta_segmentation', 'image': 'case_0003_0000', 'device': 'cpu', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-08-04 15:52:31,182] [23948] [MainThread] [INFO] (lib.infers:149) - Starting aortic segmentation inference
+[2025-08-04 15:52:31,182] [23948] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:280) - Infer Request (final): {'device': 'cpu', 'model': 'aorta_segmentation', 'image': 'C:\\Segmentation\\case_0003_0000.nii.gz', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz', 'description': 'A 3D UNet model for aortic segmentation'}
+[2025-08-04 15:52:31,184] [23948] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - PRE - Run Transform(s)
+[2025-08-04 15:52:31,184] [23948] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - PRE - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path']
+[2025-08-04 15:52:38,303] [23948] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (LoadImaged): Time: 7.1186; image: torch.Size([512, 512, 861])(torch.float32)
+[2025-08-04 15:52:38,304] [23948] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureChannelFirstd): Time: 0.0; image: torch.Size([1, 512, 512, 861])(torch.float32)
+[2025-08-04 15:52:39,009] [23948] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (ScaleIntensityRanged): Time: 0.7054; image: torch.Size([1, 512, 512, 861])(torch.float32)
+[2025-08-04 15:52:39,311] [23948] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (CropForegroundd): Time: 0.3019; image: torch.Size([1, 512, 469, 861])(torch.float32)
+[2025-08-04 15:52:39,396] [23948] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Orientationd): Time: 0.0836; image: torch.Size([1, 512, 469, 861])(torch.float32)
+[2025-08-04 15:52:40,945] [23948] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Spacingd): Time: 1.5491; image: torch.Size([1, 247, 226, 431])(torch.float32)
+[2025-08-04 15:52:40,946] [23948] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureTyped): Time: 0.0; image: torch.Size([1, 247, 226, 431])(torch.float32)
+[2025-08-04 15:52:40,946] [23948] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:503) - Inferer:: cpu => SlidingWindowInferer => {'roi_size': [96, 96, 96], 'sw_batch_size': 4, 'overlap': 0.5, 'mode': constant, 'sigma_scale': 0.125, 'padding_mode': constant, 'cval': 0.0, 'sw_device': None, 'device': None, 'progress': False, 'cpu_thresh': None, 'buffer_steps': None, 'buffer_dim': -1, 'with_coord': False, 'roi_weight_map': None}
+[2025-08-04 15:52:40,946] [23948] [MainThread] [INFO] (lib.infers:200) - Loading TorchScript model from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app\models\model.pt
+[2025-08-04 15:57:57,935] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 15:57:57,954] [33752] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 15:57:57,955] [33752] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 15:57:57,955] [33752] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 15:57:57,977] [33752] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 15:57:57,979] [33752] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 15:57:58,026] [33752] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 15:57:58,027] [33752] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 15:57:58,027] [33752] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 15:57:58,027] [33752] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 15:57:58,028] [33752] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x0000023C55094EA0>
+[2025-08-04 15:57:58,029] [33752] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 15:58:12,757] [33752] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 15:58:12,759] [33752] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_0001_0000; Weight: 7365
+[2025-08-04 15:58:12,764] [33752] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_0001_0000', 'weight': 7365, 'path': 'C:\\Segmentation\\case_0001_0000.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1749302622, 'name': 'case_0001_0000.nii.gz', 'strategy': {'random': {'ts': 1754290692, 'client_id': 'user-xyz'}}}
+[2025-08-04 15:58:41,987] [33752] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'aorta_segmentation', 'image': 'case_0001_0000', 'device': 'cpu', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-08-04 15:58:41,987] [33752] [MainThread] [INFO] (lib.infers:145) - Starting aortic segmentation inference
+[2025-08-04 15:58:41,988] [33752] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:280) - Infer Request (final): {'device': 'cpu', 'model': 'aorta_segmentation', 'image': 'C:\\Segmentation\\case_0001_0000.nii.gz', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz', 'description': 'A 3D UNet model for aortic segmentation'}
+[2025-08-04 15:58:41,990] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - PRE - Run Transform(s)
+[2025-08-04 15:58:41,990] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - PRE - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path']
+[2025-08-04 15:58:47,959] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (LoadImaged): Time: 5.9666; image: torch.Size([512, 512, 549])(torch.float32)
+[2025-08-04 15:58:47,959] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureChannelFirstd): Time: 0.0; image: torch.Size([1, 512, 512, 549])(torch.float32)
+[2025-08-04 15:58:48,154] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (ScaleIntensityRanged): Time: 0.1948; image: torch.Size([1, 512, 512, 549])(torch.float32)
+[2025-08-04 15:58:48,346] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (CropForegroundd): Time: 0.1915; image: torch.Size([1, 512, 481, 549])(torch.float32)
+[2025-08-04 15:58:48,469] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Orientationd): Time: 0.1225; image: torch.Size([1, 512, 481, 549])(torch.float32)
+[2025-08-04 15:58:49,759] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Spacingd): Time: 1.2895; image: torch.Size([1, 254, 239, 344])(torch.float32)
+[2025-08-04 15:58:49,759] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureTyped): Time: 0.0; image: torch.Size([1, 254, 239, 344])(torch.float32)
+[2025-08-04 15:58:49,760] [33752] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:503) - Inferer:: cpu => SlidingWindowInferer => {'roi_size': [96, 96, 96], 'sw_batch_size': 4, 'overlap': 0.5, 'mode': constant, 'sigma_scale': 0.125, 'padding_mode': constant, 'cval': 0.0, 'sw_device': None, 'device': None, 'progress': False, 'cpu_thresh': None, 'buffer_steps': None, 'buffer_dim': -1, 'with_coord': False, 'roi_weight_map': None}
+[2025-08-04 15:58:49,760] [33752] [MainThread] [INFO] (lib.infers:196) - Loading TorchScript model from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app\models\model.pt
+[2025-08-04 15:59:21,274] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - INV - Run Transform(s)
+[2025-08-04 15:59:21,274] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - INV - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path', 'latencies', 'foreground_start_coord', 'foreground_end_coord', 'pred']
+[2025-08-04 16:01:41,589] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - INV - Transform (Spacingd): Time: 140.2936; image: torch.Size([24, 512, 481, 549])(torch.float32); pred: torch.Size([24, 254, 239, 344])(torch.float32)
+[2025-08-04 16:01:48,008] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - INV - Transform (Orientationd): Time: 6.3924; image: torch.Size([24, 512, 481, 549])(torch.float32); pred: torch.Size([24, 254, 239, 344])(torch.float32)
+[2025-08-04 16:01:51,694] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - INV - Transform (CropForegroundd): Time: 3.6828; image: torch.Size([24, 512, 512, 549])(torch.float32); pred: torch.Size([24, 254, 239, 344])(torch.float32)
+[2025-08-04 16:01:51,845] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - POST - Run Transform(s)
+[2025-08-04 16:01:51,847] [33752] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - POST - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path', 'latencies', 'foreground_start_coord', 'foreground_end_coord', 'pred']
+[2025-08-04 16:21:11,606] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 16:21:11,659] [22124] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 16:21:11,659] [22124] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 16:21:11,660] [22124] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 16:21:11,676] [22124] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 16:21:11,677] [22124] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 16:21:11,723] [22124] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 16:21:11,724] [22124] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 16:21:11,724] [22124] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 16:21:11,724] [22124] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 16:21:11,726] [22124] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x0000024656564EA0>
+[2025-08-04 16:21:11,726] [22124] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 16:21:31,753] [22124] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 16:21:31,754] [22124] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_0019_0000; Weight: 1399
+[2025-08-04 16:21:31,759] [22124] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_0019_0000', 'weight': 1399, 'path': 'C:\\Segmentation\\case_0019_0000.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1749346718, 'name': 'case_0019_0000.nii.gz', 'strategy': {'random': {'ts': 1754292091, 'client_id': 'user-xyz'}}}
+[2025-08-04 16:21:37,959] [22124] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'aorta_segmentation', 'image': 'case_0019_0000', 'device': 'NVIDIA T1000 8GB', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-08-04 16:21:37,959] [22124] [MainThread] [INFO] (lib.infers:145) - Starting aortic segmentation inference
+[2025-08-04 16:21:37,959] [22124] [MainThread] [INFO] (monailabel.utils.others.generic:163) - Using nvidia-smi command
+[2025-08-04 16:21:38,004] [22124] [MainThread] [INFO] (lib.infers:148) - GPU Memory: {0: 7503}
+[2025-08-04 16:21:38,004] [22124] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:280) - Infer Request (final): {'device': 'cuda', 'model': 'aorta_segmentation', 'image': 'C:\\Segmentation\\case_0019_0000.nii.gz', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz', 'description': 'A 3D UNet model for aortic segmentation'}
+[2025-08-04 16:21:38,006] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - PRE - Run Transform(s)
+[2025-08-04 16:21:38,006] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - PRE - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path']
+[2025-08-04 16:21:39,040] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (LoadImaged): Time: 1.0346; image: torch.Size([512, 512, 115])(torch.float32)
+[2025-08-04 16:21:39,041] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureChannelFirstd): Time: 0.0; image: torch.Size([1, 512, 512, 115])(torch.float32)
+[2025-08-04 16:21:39,090] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (ScaleIntensityRanged): Time: 0.0476; image: torch.Size([1, 512, 512, 115])(torch.float32)
+[2025-08-04 16:21:39,136] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (CropForegroundd): Time: 0.0454; image: torch.Size([1, 512, 434, 115])(torch.float32)
+[2025-08-04 16:21:39,148] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Orientationd): Time: 0.011; image: torch.Size([1, 512, 434, 115])(torch.float32)
+[2025-08-04 16:21:39,937] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Spacingd): Time: 0.7887; image: torch.Size([1, 241, 204, 286])(torch.float32)
+[2025-08-04 16:21:39,938] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureTyped): Time: 0.0; image: torch.Size([1, 241, 204, 286])(torch.float32)
+[2025-08-04 16:21:39,938] [22124] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:503) - Inferer:: cuda => SlidingWindowInferer => {'roi_size': [96, 96, 96], 'sw_batch_size': 4, 'overlap': 0.5, 'mode': constant, 'sigma_scale': 0.125, 'padding_mode': constant, 'cval': 0.0, 'sw_device': None, 'device': None, 'progress': False, 'cpu_thresh': None, 'buffer_steps': None, 'buffer_dim': -1, 'with_coord': False, 'roi_weight_map': None}
+[2025-08-04 16:21:39,938] [22124] [MainThread] [INFO] (lib.infers:196) - Loading TorchScript model from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app\models\model.pt
+[2025-08-04 16:21:46,249] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - INV - Run Transform(s)
+[2025-08-04 16:21:46,249] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - INV - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path', 'latencies', 'foreground_start_coord', 'foreground_end_coord', 'pred']
+[2025-08-04 16:21:47,678] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - INV - Transform (Spacingd): Time: 1.4268; image: torch.Size([24, 512, 434, 115])(torch.float32); pred: torch.Size([24, 241, 204, 286])(torch.float32)
+[2025-08-04 16:21:47,680] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - INV - Transform (Orientationd): Time: 0.002; image: torch.Size([24, 512, 434, 115])(torch.float32); pred: torch.Size([24, 241, 204, 286])(torch.float32)
+[2025-08-04 16:21:47,686] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - INV - Transform (CropForegroundd): Time: 0.006; image: torch.Size([24, 512, 512, 115])(torch.float32); pred: torch.Size([24, 241, 204, 286])(torch.float32)
+[2025-08-04 16:21:47,687] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - POST - Run Transform(s)
+[2025-08-04 16:21:47,687] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - POST - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path', 'latencies', 'foreground_start_coord', 'foreground_end_coord', 'pred']
+[2025-08-04 16:21:47,688] [22124] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - POST - Transform (EnsureTyped): Time: 0.0; image: torch.Size([1, 241, 204, 286])(torch.float32); pred: torch.Size([24, 512, 512, 115])(torch.float32)
+[2025-08-04 16:21:47,688] [22124] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:603) - Writing Result...
+[2025-08-04 16:21:47,689] [22124] [MainThread] [INFO] (monailabel.transform.writer:196) - Result ext: .nrrd; write_to_file: True; dtype: uint8
+[2025-08-04 16:21:47,690] [22124] [MainThread] [WARNING] (monailabel.transform.writer:219) - Using extension '.nrrd' with multi-channel 4D label will probably failConsider to use extension '.seg.nrrd'
+[2025-08-04 16:26:19,732] [30484] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 16:26:19,764] [30484] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 16:26:19,764] [30484] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 16:26:19,765] [30484] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 16:26:19,791] [30484] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 16:26:19,792] [30484] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 16:26:19,887] [30484] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 16:26:19,888] [30484] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 16:26:19,888] [30484] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 16:26:19,889] [30484] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 16:26:19,891] [30484] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x0000018FCF164EA0>
+[2025-08-04 16:26:19,891] [30484] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 16:26:43,048] [30484] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 16:26:43,049] [30484] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_0003_0000; Weight: 1711
+[2025-08-04 16:26:43,052] [30484] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_0003_0000', 'weight': 1711, 'path': 'C:\\Segmentation\\case_0003_0000.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1753940728, 'name': 'case_0003_0000.nii.gz', 'strategy': {'random': {'ts': 1754292403, 'client_id': 'user-xyz'}}}
+[2025-08-04 16:27:00,031] [30484] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'aorta_segmentation', 'image': 'case_0003_0000', 'device': 'NVIDIA T1000 8GB', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-08-04 16:27:00,031] [30484] [MainThread] [INFO] (lib.infers:149) - Starting aortic segmentation inference
+[2025-08-04 16:27:00,031] [30484] [MainThread] [INFO] (monailabel.utils.others.generic:163) - Using nvidia-smi command
+[2025-08-04 16:27:00,071] [30484] [MainThread] [INFO] (lib.infers:152) - GPU Memory: {0: 7586}
+[2025-08-04 16:27:00,071] [30484] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:280) - Infer Request (final): {'device': 'cuda', 'model': 'aorta_segmentation', 'image': 'C:\\Segmentation\\case_0003_0000.nii.gz', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz', 'description': 'A 3D UNet model for aortic segmentation'}
+[2025-08-04 16:27:00,073] [30484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - PRE - Run Transform(s)
+[2025-08-04 16:27:00,073] [30484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - PRE - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path']
+[2025-08-04 16:27:07,816] [30484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (LoadImaged): Time: 7.7426; image: torch.Size([512, 512, 861])(torch.float32)
+[2025-08-04 16:27:07,817] [30484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureChannelFirstd): Time: 0.0; image: torch.Size([1, 512, 512, 861])(torch.float32)
+[2025-08-04 16:27:08,757] [30484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (ScaleIntensityRanged): Time: 0.94; image: torch.Size([1, 512, 512, 861])(torch.float32)
+[2025-08-04 16:27:09,077] [30484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (CropForegroundd): Time: 0.3193; image: torch.Size([1, 512, 469, 861])(torch.float32)
+[2025-08-04 16:27:09,161] [30484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Orientationd): Time: 0.0825; image: torch.Size([1, 512, 469, 861])(torch.float32)
+[2025-08-04 16:27:10,560] [30484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Spacingd): Time: 1.3996; image: torch.Size([1, 247, 226, 431])(torch.float32)
+[2025-08-04 16:27:10,560] [30484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureTyped): Time: 0.0; image: torch.Size([1, 247, 226, 431])(torch.float32)
+[2025-08-04 16:27:10,560] [30484] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:503) - Inferer:: cuda => SlidingWindowInferer => {'roi_size': [96, 96, 96], 'sw_batch_size': 4, 'overlap': 0.5, 'mode': constant, 'sigma_scale': 0.125, 'padding_mode': constant, 'cval': 0.0, 'sw_device': None, 'device': None, 'progress': False, 'cpu_thresh': None, 'buffer_steps': None, 'buffer_dim': -1, 'with_coord': False, 'roi_weight_map': None}
+[2025-08-04 16:27:10,562] [30484] [MainThread] [INFO] (lib.infers:200) - Loading TorchScript model from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app\models\model.pt
+[2025-08-04 16:27:20,103] [30484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - INV - Run Transform(s)
+[2025-08-04 16:27:20,103] [30484] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - INV - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path', 'latencies', 'foreground_start_coord', 'foreground_end_coord', 'pred']
+[2025-08-04 16:32:37,510] [40860] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 16:32:37,552] [40860] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 16:32:37,552] [40860] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 16:32:37,553] [40860] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 16:32:37,564] [40860] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 16:32:37,564] [40860] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 16:32:37,653] [40860] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 16:32:37,654] [40860] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 16:32:37,654] [40860] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 16:32:37,655] [40860] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 16:32:37,656] [40860] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x0000017DAB574EA0>
+[2025-08-04 16:32:37,656] [40860] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 16:33:02,936] [40860] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 16:33:02,936] [40860] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_0002_0000; Weight: 2090
+[2025-08-04 16:33:02,940] [40860] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_0002_0000', 'weight': 2090, 'path': 'C:\\Segmentation\\case_0002_0000.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1749303426, 'name': 'case_0002_0000.nii.gz', 'strategy': {'random': {'ts': 1754292782, 'client_id': 'user-xyz'}}}
+[2025-08-04 16:34:27,336] [40860] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'aorta_segmentation', 'image': 'case_0002_0000', 'device': 'NVIDIA T1000 8GB', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-08-04 16:34:27,337] [40860] [MainThread] [INFO] (lib.infers:149) - Starting aortic segmentation inference
+[2025-08-04 16:34:27,337] [40860] [MainThread] [INFO] (monailabel.utils.others.generic:163) - Using nvidia-smi command
+[2025-08-04 16:34:27,389] [40860] [MainThread] [INFO] (lib.infers:152) - GPU Memory: {0: 7586}
+[2025-08-04 16:34:27,389] [40860] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:280) - Infer Request (final): {'device': 'cuda', 'model': 'aorta_segmentation', 'image': 'C:\\Segmentation\\case_0002_0000.nii.gz', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz', 'description': 'A 3D UNet model for aortic segmentation'}
+[2025-08-04 16:34:27,391] [40860] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - PRE - Run Transform(s)
+[2025-08-04 16:34:27,391] [40860] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - PRE - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path']
+[2025-08-04 16:34:34,234] [40860] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (LoadImaged): Time: 6.8418; image: torch.Size([512, 512, 831])(torch.float32)
+[2025-08-04 16:34:34,234] [40860] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureChannelFirstd): Time: 0.0; image: torch.Size([1, 512, 512, 831])(torch.float32)
+[2025-08-04 16:34:34,924] [40860] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (ScaleIntensityRanged): Time: 0.6892; image: torch.Size([1, 512, 512, 831])(torch.float32)
+[2025-08-04 16:34:35,230] [40860] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (CropForegroundd): Time: 0.3049; image: torch.Size([1, 512, 477, 831])(torch.float32)
+[2025-08-04 16:34:35,319] [40860] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Orientationd): Time: 0.089; image: torch.Size([1, 512, 477, 831])(torch.float32)
+[2025-08-04 16:34:36,727] [40860] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Spacingd): Time: 1.408; image: torch.Size([1, 247, 230, 416])(torch.float32)
+[2025-08-04 16:34:36,729] [40860] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureTyped): Time: 0.0; image: torch.Size([1, 247, 230, 416])(torch.float32)
+[2025-08-04 16:34:36,729] [40860] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:503) - Inferer:: cuda => SlidingWindowInferer => {'roi_size': [96, 96, 96], 'sw_batch_size': 1, 'overlap': 0.5, 'mode': constant, 'sigma_scale': 0.125, 'padding_mode': constant, 'cval': 0.0, 'sw_device': None, 'device': None, 'progress': False, 'cpu_thresh': None, 'buffer_steps': None, 'buffer_dim': -1, 'with_coord': False, 'roi_weight_map': None}
+[2025-08-04 16:34:36,730] [40860] [MainThread] [INFO] (lib.infers:200) - Loading TorchScript model from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app\models\model.pt
+[2025-08-04 16:34:46,550] [40860] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - INV - Run Transform(s)
+[2025-08-04 16:34:46,550] [40860] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - INV - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path', 'latencies', 'foreground_start_coord', 'foreground_end_coord', 'pred']
+[2025-08-04 16:38:16,173] [31136] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app; studies: C:\Segmentation; conf: {'models': 'aorta_segmentation'}
+[2025-08-04 16:38:16,208] [31136] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.AortaApp'>
+[2025-08-04 16:38:16,208] [31136] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: C:\Segmentation
+[2025-08-04 16:38:16,209] [31136] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-08-04 16:38:16,221] [31136] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-08-04 16:38:16,221] [31136] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-08-04 16:38:16,310] [31136] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\yunak\.cache\monailabel\sessions
+[2025-08-04 16:38:16,311] [31136] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-08-04 16:38:16,311] [31136] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-08-04 16:38:16,312] [31136] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-08-04 16:38:16,314] [31136] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x00000161475D4EA0>
+[2025-08-04 16:38:16,315] [31136] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-08-04 16:39:34,425] [31136] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-08-04 16:39:34,426] [31136] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: subject002_CTA; Weight: 2482
+[2025-08-04 16:39:34,434] [31136] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'subject002_CTA', 'weight': 2482, 'path': 'C:\\Segmentation\\subject002_CTA.nii.gz', 'client_id': 'user-xyz', 'user': 'admin', 'ts': 1749340459, 'name': 'subject002_CTA.nii.gz', 'strategy': {'random': {'ts': 1754293174, 'client_id': 'user-xyz'}}}
+[2025-08-04 16:39:39,510] [31136] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'aorta_segmentation', 'image': 'subject002_CTA', 'device': 'NVIDIA T1000 8GB', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-08-04 16:39:39,511] [31136] [MainThread] [INFO] (lib.infers:149) - Starting aortic segmentation inference
+[2025-08-04 16:39:39,511] [31136] [MainThread] [INFO] (monailabel.utils.others.generic:163) - Using nvidia-smi command
+[2025-08-04 16:39:39,558] [31136] [MainThread] [INFO] (lib.infers:152) - GPU Memory: {0: 7586}
+[2025-08-04 16:39:39,559] [31136] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:280) - Infer Request (final): {'device': 'cuda', 'model': 'aorta_segmentation', 'image': 'C:\\Segmentation\\subject002_CTA.nii.gz', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz', 'description': 'A 3D UNet model for aortic segmentation'}
+[2025-08-04 16:39:39,560] [31136] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - PRE - Run Transform(s)
+[2025-08-04 16:39:39,560] [31136] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - PRE - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path']
+[2025-08-04 16:39:43,602] [31136] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (LoadImaged): Time: 4.0421; image: torch.Size([516, 516, 715])(torch.float32)
+[2025-08-04 16:39:43,604] [31136] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureChannelFirstd): Time: 0.001; image: torch.Size([1, 516, 516, 715])(torch.float32)
+[2025-08-04 16:39:43,874] [31136] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (ScaleIntensityRanged): Time: 0.2706; image: torch.Size([1, 516, 516, 715])(torch.float32)
+[2025-08-04 16:39:44,164] [31136] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (CropForegroundd): Time: 0.2889; image: torch.Size([1, 489, 447, 715])(torch.float32)
+[2025-08-04 16:39:44,238] [31136] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Orientationd): Time: 0.074; image: torch.Size([1, 489, 447, 715])(torch.float32)
+[2025-08-04 16:39:46,185] [31136] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (Spacingd): Time: 1.947; image: torch.Size([1, 326, 298, 358])(torch.float32)
+[2025-08-04 16:39:46,186] [31136] [MainThread] [INFO] (monailabel.interfaces.utils.transform:122) - PRE - Transform (EnsureTyped): Time: 0.0; image: torch.Size([1, 326, 298, 358])(torch.float32)
+[2025-08-04 16:39:46,186] [31136] [MainThread] [INFO] (monailabel.tasks.infer.basic_infer:503) - Inferer:: cuda => SlidingWindowInferer => {'roi_size': [96, 96, 96], 'sw_batch_size': 1, 'overlap': 0.5, 'mode': constant, 'sigma_scale': 0.125, 'padding_mode': constant, 'cval': 0.0, 'sw_device': None, 'device': None, 'progress': False, 'cpu_thresh': None, 'buffer_steps': None, 'buffer_dim': -1, 'with_coord': False, 'roi_weight_map': None}
+[2025-08-04 16:39:46,186] [31136] [MainThread] [INFO] (lib.infers:200) - Loading TorchScript model from: C:\DevinMonai\Aorta_Analysis\monai_label_app\aorta_app\models\model.pt
+[2025-08-04 16:40:01,281] [31136] [MainThread] [INFO] (monailabel.interfaces.utils.transform:76) - INV - Run Transform(s)
+[2025-08-04 16:40:01,281] [31136] [MainThread] [INFO] (monailabel.interfaces.utils.transform:77) - INV - Input Keys: ['device', 'model', 'image', 'result_extension', 'result_dtype', 'client_id', 'description', 'image_path', 'latencies', 'foreground_start_coord', 'foreground_end_coord', 'pred']

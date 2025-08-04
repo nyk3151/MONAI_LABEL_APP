@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "changelog": {
+    "1.0.0": "Initial release of 3D UNet model for 24-class aortic segmentation"
+  },
+  "monai_version": "1.3.0",
+  "pytorch_version": "2.0.0",
+  "numpy_version": "1.24.0",
+  "optional_packages_version": {},
+  "name": "Aorta Segmentation UNet",
+  "task": "Segmentation",
+  "description": "3D UNet model for 24-class aortic segmentation with preprocessing pipeline including intensity scaling, spacing normalization, and RAS orientation",
+  "authors": "Yu Nakano",
+  "copyright": "Copyright (c) Yu Nakano",
+  "data_source": "Custom aortic imaging dataset",
+  "data_type": "nifti",
+  "image_classes": "CT scans with intensity range [-175, 250] HU",
+  "label_classes": "24 anatomical regions including background",
+  "pred_classes": "24 anatomical regions including background",
+  "eval_metrics": {
+    "mean_dice": 0.85
+  },
+  "intended_use": "Research purposes for aortic structure segmentation",
+  "network_data_format": {
+    "inputs": {
+      "image": {
+        "type": "image",
+        "format": "hounsfield",
+        "modality": "CT",
+        "num_channels": 1,
+        "spatial_shape": [96, 96, 96],
+        "dtype": "float32",
+        "value_range": [0, 1],
+        "is_patch_data": true,
+        "channel_def": {
+          "0": "CT"
+        }
+      }
+    },
+    "outputs": {
+      "pred": {
+        "type": "image",
+        "format": "segmentation",
+        "num_channels": 24,
+        "spatial_shape": [96, 96, 96],
+        "dtype": "float32",
+        "value_range": [0, 1],
+        "is_patch_data": true,
+        "channel_def": {
+          "0": "background",
+          "1": "region_1",
+          "2": "region_2",
+          "3": "region_3",
+          "4": "region_4",
+          "5": "region_5",
+          "6": "region_6",
+          "7": "region_7",
+          "8": "region_8",
+          "9": "region_9",
+          "10": "region_10",
+          "11": "region_11",
+          "12": "region_12",
+          "13": "region_13",
+          "14": "region_14",
+          "15": "region_15",
+          "16": "region_16",
+          "17": "region_17",
+          "18": "region_18",
+          "19": "region_19",
+          "20": "region_20",
+          "21": "region_21",
+          "22": "region_22",
+          "23": "region_23"
+        }
+      }
+    }
+  }
+}

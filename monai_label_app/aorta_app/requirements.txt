@@ -1,0 +1,7 @@
+monai>=1.3.0
+monailabel>=0.7.0
+nibabel>=5.0.0
+numpy>=1.24.0
+SimpleITK>=2.2.0
+torch>=2.0.0
+torchvision>=0.15.0
